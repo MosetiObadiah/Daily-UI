@@ -1,0 +1,65 @@
+.top{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.heading img {
+    border-radius: 2%;
+    margin-left: 120px;
+}
+lft-btns{
+    display: flex;
+    gap: 100px;
+    align-items:end;
+    justify-content: end;
+}
+.languages{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+.buttons{
+    margin-top: 40px;
+}
+.left, .right{
+    display: inline-flex;
+}
+.left a{
+    background-color: green;
+    border: 9px solid transparent;
+    border-radius: 50%;
+}.right a{
+    background-color: red;
+    border: 9px solid transparent;
+    border-radius: 50%;
+}
+.aboutme{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 120px;
+}
+.aboutme p{
+    max-width: 600px;
+    line-height: 1.9;
+    text-align: justify;
+}
+.email{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.workexp h1{
+    margin-left: 120px;
+}
+.work{
+    margin-left: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 50vh;
+}
