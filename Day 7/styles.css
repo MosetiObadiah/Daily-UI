@@ -1,0 +1,28 @@
+.body {
+    height: 100vh;
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+}
+
+.option {
+    display: inline-block;
+}
+
+.pill{
+    background-color: #F8F9FA;
+    width: 80%;
+    margin-top: 10px;
+    border: 0.5px solid black;
+    border-radius: 10px;
+}
+.switch{
+    align-items: center;
+    justify-content: center;
+}
