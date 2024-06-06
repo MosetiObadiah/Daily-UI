@@ -1,0 +1,29 @@
+body{
+    background-image: url(./travis.jpg);
+    background-size:cover;
+}
+.navbar {
+    margin-top: 10px;
+    line-height: 0.8;
+    border-radius: 6px;
+}
+.play {
+    text-decoration: underline;
+}
+.btns{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    height: 100%;
+}
+.left{
+    color: white;
+}
+.namw{
+    font-size: 140px;
+    text-shadow: 2px;
+}
+.left p{
+    width: 45%;
+}
