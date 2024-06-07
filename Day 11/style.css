@@ -1,0 +1,10 @@
+.container{
+    background: rgb(40, 219, 124);
+    background: linear-gradient(90deg, rgba(40, 219, 124, 1) 28%, rgba(235, 0, 255, 1) 67%, rgba(40, 219, 124, 1) 100%);
+    
+}
+
+.card {
+    margin: 50px;
+    border-radius: 5px;
+}
